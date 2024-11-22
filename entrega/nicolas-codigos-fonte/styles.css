@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.margem {
+    margin-bottom: 2vh;
+}
+
+#verde {
+    color: green;
+}
+
+#vermelho {
+    color: red;
+}
+
+#ajuste {
+    display: flex;
+    gap: 3vw;
+}
+
+#ajuste1 {
+    margin-top: 5vh;
+}
+
+nav {
+    background-color: #0056b3;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 2vh;
+    gap: 56vw;
+}
+
+.a {
+    color: #FFFFFF;
+    text-decoration: none;
+}

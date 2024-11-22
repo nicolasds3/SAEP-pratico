@@ -1,5 +1,5 @@
 <?php
-include "../../banco/conexoes/conexao.php";
+include "conexao.php";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $descricao_tarefa = $_POST['descricao_tarefa'];
@@ -26,8 +26,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre suas tarefas!</title>
-    <link rel="stylesheet" href="../visual/styles/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+<nav>
+    <div>
+        <h1>Gerenciamento de Tarefas.</h1>
+    </div>
+    <div id="ajuste">
+        <div>
+            <a class="a" href="visualizar_usuarios.php">Visualizar Usuários</a>
+        </div>
+        <div>
+            <a class="a" href="cadastro.php">Cadastro de Usuários</a>
+        </div>
+        <div>
+            <a class="a" href="gerenciamento_tarefas.php">Gerenciar Tarefas</a>
+        </div>
+    </div>
+</nav>
 <body>
     <form action="#" method="POST">
         <div class="margem">

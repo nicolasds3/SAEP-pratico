@@ -15,7 +15,7 @@ create table tarefas(
     prioridade enum('baixa', 'média', 'alta') not null,
     data_cadastro_tarefa date,
     status_tarefa enum('a fazer', 'fazendo', 'pronto') not null,
-    fk_usuario INT NOT NULL,  
+    fk_usuario INT,  
     FOREIGN KEY (fk_usuario) REFERENCES usuario(id_usuario)
 );
 
