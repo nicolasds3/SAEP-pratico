@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')  {
 
     if ($conexao -> query($sql_tarefas) === true) {
         echo "<div id='verde'>Tarefa editada com sucesso!</div>";
-        header("Localtion: gerenciamento_tarefas.php");
+        header("Location: gerenciamento_tarefas.php");
     } else {
         echo "<div id='vermelho'>Cadastro falhou!</div>" . $sql_tarefas . "<br>" . $conexao -> error;
     }
