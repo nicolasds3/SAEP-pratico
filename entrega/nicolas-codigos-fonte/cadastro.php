@@ -31,6 +31,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
     <div id="ajuste">
         <div>
+            <a class="a" href="criar_tarefas.php">Criar tarefas.</a>
+        </div>
+        <div>
             <a class="a" href="visualizar_usuarios.php">Visualizar Usuários</a>
         </div>
         <div>
