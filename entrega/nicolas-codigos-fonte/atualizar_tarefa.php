@@ -42,7 +42,7 @@ $row = $resultado -> fetch_assoc();
     </div>
     <div id="ajuste">
         <div>
-            <a class="a" href="criar_tarefas.php">Criar tarefas.</a>
+            <a class="a" href="criar_tarefa.php">Criar tarefas.</a>
         </div>
         <div>
             <a class="a" href="visualizar_usuarios.php">Visualizar Usuários</a>
